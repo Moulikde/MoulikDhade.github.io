@@ -1,11 +1,30 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Moulik Dhade | Data Engineer Portfolio</title>
+    <title>Moulik Dhade portfolio</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+    <!-- Alignment fixes -->
+    <style>
+        /* Make project cards consistent */
+        section.posts article {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        section.posts article p {
+            flex-grow: 1;
+            text-align: left;
+        }
+
+        section.posts article .actions {
+            margin-top: auto;
+        }
+    </style>
 </head>
 
 <body class="is-preload">
@@ -16,8 +35,8 @@
     <div id="intro">
         <h1>Moulik Dhade<br />Portfolio</h1>
         <p>
-            Experienced Data Engineer with ETL, data analysis, and machine learning experience
-            using modern programming tools and techniques.
+            Experienced Data Engineer with ETL, data analysis, and machine learning expertise
+            using modern programming tools and data platforms.
         </p>
         <ul class="actions">
             <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
@@ -35,168 +54,198 @@
             <li class="active"><a href="index.html">My Projects</a></li>
         </ul>
         <ul class="icons">
-            <li><a href="https://github.com/Moulikde" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-            <li><a href="https://www.linkedin.com/in/moulikde/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+            <li><a href="https://github.com/Moulikde" target="_blank" rel="noopener noreferrer"
+                   class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+            <li><a href="https://www.linkedin.com/in/moulikde/" target="_blank" rel="noopener noreferrer"
+                   class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
         </ul>
     </nav>
 
     <!-- Main -->
     <div id="main">
 
-        <!-- Featured Project -->
+        <!-- Featured -->
         <article class="post featured">
             <header class="major">
                 <h2>
-                    <a href="https://github.com/Moulikde/ML_TwitterSentimentAnalysis">
+                    <a href="https://github.com/Moulikde/ML_TwitterSentimentAnalysis"
+                       target="_blank" rel="noopener noreferrer">
                         Twitter Sentiment Analysis
                     </a>
                 </h2>
                 <p>
-                    Used NLP techniques and topic modeling along with classification models such as
-                    Multinomial Naive Bayes, SVM, and Neural Networks to classify tweet sentiment.
+                    Applied NLP techniques, topic modeling, and classification models
+                    including Naive Bayes, SVM, and Neural Networks to classify tweets.
                 </p>
             </header>
-            <a href="https://github.com/Moulikde/ML_TwitterSentimentAnalysis" class="image main">
-                <img src="images/P2.JPG" alt="Twitter sentiment analysis project" />
+            <a href="https://github.com/Moulikde/ML_TwitterSentimentAnalysis"
+               target="_blank" rel="noopener noreferrer"
+               class="image main">
+                <img src="images/P2.JPG" alt="Twitter Sentiment Analysis" />
             </a>
             <ul class="actions special">
-                <li><a href="https://github.com/Moulikde/ML_TwitterSentimentAnalysis" class="button large">View Project</a></li>
+                <li><a href="https://github.com/Moulikde/ML_TwitterSentimentAnalysis"
+                       target="_blank" rel="noopener noreferrer"
+                       class="button large">View Project</a></li>
             </ul>
         </article>
 
-        <!-- Projects Grid -->
+        <!-- Posts -->
         <section class="posts">
 
-            <!-- Retail Sales -->
             <article>
                 <header>
                     <h2>
-                        <a href="https://github.com/Moulikde/PortfolioProjects/blob/main/Electronics_Reail_Sales_Analysis.ipynb">
+                        <a href="https://github.com/Moulikde/PortfolioProjects/blob/main/Electronics_Reail_Sales_Analysis.ipynb"
+                           target="_blank" rel="noopener noreferrer">
                             Retail Sales Analysis
                         </a>
                     </h2>
                 </header>
-                <a href="https://github.com/Moulikde/PortfolioProjects/blob/main/Electronics_Reail_Sales_Analysis.ipynb" class="image fit">
-                    <img src="images/P1.jpg" alt="Retail sales data analysis" />
+                <a href="https://github.com/Moulikde/PortfolioProjects/blob/main/Electronics_Reail_Sales_Analysis.ipynb"
+                   target="_blank" rel="noopener noreferrer"
+                   class="image fit">
+                    <img src="images/P1.jpg" alt="Retail Sales Analysis" />
                 </a>
                 <p>
-                    Leveraged Python data analysis libraries to analyze electronics retail sales data
-                    and extract business insights.
+                    Performed exploratory data analysis using Python and Pandas to uncover
+                    sales trends and performance insights.
                 </p>
                 <ul class="actions special">
-                    <li><a href="https://github.com/Moulikde/PortfolioProjects/blob/main/Electronics_Reail_Sales_Analysis.ipynb" class="button">View Project</a></li>
+                    <li><a href="https://github.com/Moulikde/PortfolioProjects/blob/main/Electronics_Reail_Sales_Analysis.ipynb"
+                           target="_blank" rel="noopener noreferrer"
+                           class="button">View Project</a></li>
                 </ul>
             </article>
 
-            <!-- COVID-19 -->
             <article>
                 <header>
                     <h2>
-                        <a href="https://github.com/Moulikde/PortfolioProjects/blob/main/CovidProject-SQLDataWrangling.sql">
+                        <a href="https://github.com/Moulikde/PortfolioProjects/blob/main/CovidProject-SQLDataWrangling.sql"
+                           target="_blank" rel="noopener noreferrer">
                             COVID-19 Data Exploration
                         </a>
                     </h2>
                 </header>
-                <a href="https://github.com/Moulikde/PortfolioProjects/blob/main/CovidProject-SQLDataWrangling.sql" class="image fit">
-                    <img src="https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?q=80&w=1200&auto=format&fit=crop"
-                         alt="COVID-19 data exploration using SQL" />
+                <a href="https://github.com/Moulikde/PortfolioProjects/blob/main/CovidProject-SQLDataWrangling.sql"
+                   target="_blank" rel="noopener noreferrer"
+                   class="image fit">
+                    <img src="images/P3.jpg" alt="COVID Data Exploration" />
                 </a>
                 <p>
-                    Used Microsoft SQL Server to load, clean, and explore COVID-19 datasets
-                    to answer analytical and reporting questions.
+                    Loaded and transformed COVID-19 datasets in SQL Server to answer
+                    analytical and reporting questions.
                 </p>
                 <ul class="actions special">
-                    <li><a href="https://github.com/Moulikde/PortfolioProjects/blob/main/CovidProject-SQLDataWrangling.sql" class="button">View Project</a></li>
+                    <li><a href="https://github.com/Moulikde/PortfolioProjects/blob/main/CovidProject-SQLDataWrangling.sql"
+                           target="_blank" rel="noopener noreferrer"
+                           class="button">View Project</a></li>
                 </ul>
             </article>
 
-            <!-- Tableau Dashboards -->
             <article>
                 <header>
                     <h2>
-                        <a href="https://public.tableau.com/app/profile/moulik.dhade">
+                        <a href="https://public.tableau.com/app/profile/moulik.dhade"
+                           target="_blank" rel="noopener noreferrer">
                             Tableau Dashboards
                         </a>
                     </h2>
                 </header>
-                <a href="https://public.tableau.com/app/profile/moulik.dhade" class="image fit">
-                    <img src="images/P4.png" alt="Tableau dashboards" />
+                <a href="https://public.tableau.com/app/profile/moulik.dhade"
+                   target="_blank" rel="noopener noreferrer"
+                   class="image fit">
+                    <img src="images/P4.png" alt="Tableau Dashboards" />
                 </a>
                 <p>
-                    Created interactive Tableau dashboards and reports to communicate insights
-                    from cleaned and transformed datasets.
+                    Interactive dashboards and visual analytics built using Tableau Public
+                    across multiple datasets.
                 </p>
                 <ul class="actions special">
-                    <li><a href="https://public.tableau.com/app/profile/moulik.dhade" class="button">View Project</a></li>
+                    <li><a href="https://public.tableau.com/app/profile/moulik.dhade"
+                           target="_blank" rel="noopener noreferrer"
+                           class="button">View Project</a></li>
                 </ul>
             </article>
 
-            <!-- Nashville Housing -->
             <article>
                 <header>
                     <h2>
-                        <a href="https://github.com/Moulikde/PortfolioProjects/blob/main/NashvilleHousing%20-%20SQLDataCleaning.sql">
+                        <a href="https://github.com/Moulikde/PortfolioProjects/blob/main/NashvilleHousing%20-%20SQLDataCleaning.sql"
+                           target="_blank" rel="noopener noreferrer">
                             Nashville Housing Data Cleaning
                         </a>
                     </h2>
                 </header>
-                <a href="https://github.com/Moulikde/PortfolioProjects/blob/main/NashvilleHousing%20-%20SQLDataCleaning.sql" class="image fit">
-                    <img src="images/P5.png" alt="SQL data cleaning project" />
+                <a href="https://github.com/Moulikde/PortfolioProjects/blob/main/NashvilleHousing%20-%20SQLDataCleaning.sql"
+                   target="_blank" rel="noopener noreferrer"
+                   class="image fit">
+                    <img src="images/P5.png" alt="Housing Data Cleaning" />
                 </a>
                 <p>
-                    Transformed raw housing data in SQL Server to improve data quality
-                    and usability for downstream analysis.
+                    Cleaned and standardized raw housing data in SQL Server to prepare it
+                    for downstream analytics.
                 </p>
                 <ul class="actions special">
-                    <li><a href="https://github.com/Moulikde/PortfolioProjects/blob/main/NashvilleHousing%20-%20SQLDataCleaning.sql" class="button">View Project</a></li>
+                    <li><a href="https://github.com/Moulikde/PortfolioProjects/blob/main/NashvilleHousing%20-%20SQLDataCleaning.sql"
+                           target="_blank" rel="noopener noreferrer"
+                           class="button">View Project</a></li>
                 </ul>
             </article>
 
-            <!-- Predicting Rain in Australia -->
             <article>
                 <header>
                     <h2>
-                        <a href="https://github.com/Moulikde/DA_AUSRainPrediction/blob/main/ISYS%20812%20Project%20-%20Rain%20in%20Australia.ipynb">
+                        <a href="https://github.com/Moulikde/DA_AUSRainPrediction"
+                           target="_blank" rel="noopener noreferrer">
                             Predicting Rain in Australia
                         </a>
                     </h2>
                 </header>
-                <a href="https://github.com/Moulikde/DA_AUSRainPrediction/blob/main/ISYS%20812%20Project%20-%20Rain%20in%20Australia.ipynb" class="image fit">
+                <a href="https://github.com/Moulikde/DA_AUSRainPrediction"
+                   target="_blank" rel="noopener noreferrer"
+                   class="image fit">
                     <img src="https://www.queenslandcountrylife.com.au/images/transform/v1/crop/frm/ya3tPqPRXYVuem2wchintR/c8f646b8-5b33-4467-8ca9-8693fd7ac047.jpg/r208_70_877_479_w1200_h678_fmax.webp"
-                         alt="Rainfall prediction in Australia" />
+                         alt="Rain Prediction Australia" />
                 </a>
                 <p>
-                    Data cleaning and logistic regression modeling to predict rainfall in Australia.
+                    Built a logistic regression model with cleaned weather data to predict
+                    rainfall patterns across Australian regions.
                 </p>
                 <ul class="actions special">
-                    <li><a href="https://github.com/Moulikde/DA_AUSRainPrediction/blob/main/ISYS%20812%20Project%20-%20Rain%20in%20Australia.ipynb" class="button">View Project</a></li>
+                    <li><a href="https://github.com/Moulikde/DA_AUSRainPrediction"
+                           target="_blank" rel="noopener noreferrer"
+                           class="button">View Project</a></li>
                 </ul>
             </article>
 
-            <!-- StudentInfoApp -->
             <article>
                 <header>
                     <h2>
-                        <a href="https://github.com/Moulikde/GCE_StudentInfoApp">
+                        <a href="https://github.com/Moulikde/GCE_StudentInfoApp"
+                           target="_blank" rel="noopener noreferrer">
                             GCE StudentInfoApp
                         </a>
                     </h2>
                 </header>
-                <a href="https://github.com/Moulikde/GCE_StudentInfoApp" class="image fit">
+                <a href="https://github.com/Moulikde/GCE_StudentInfoApp"
+                   target="_blank" rel="noopener noreferrer"
+                   class="image fit">
                     <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*3kV_QmhboTgiNEFn3LsY1A.png"
-                         alt="Student information app project" />
+                         alt="Student Information Application" />
                 </a>
                 <p>
-                    Developed a student information application demonstrating CRUD operations,
-                    UI data integration, and structured data handling for academic records.
+                    Developed a student information management application showcasing
+                    structured data handling, CRUD operations, and backend logic design.
                 </p>
                 <ul class="actions special">
-                    <li><a href="https://github.com/Moulikde/GCE_StudentInfoApp" class="button">View Project</a></li>
+                    <li><a href="https://github.com/Moulikde/GCE_StudentInfoApp"
+                           target="_blank" rel="noopener noreferrer"
+                           class="button">View Project</a></li>
                 </ul>
             </article>
 
         </section>
-
     </div>
 
     <!-- Footer -->
@@ -214,13 +263,6 @@
                 <h3>Email</h3>
                 <p>moulik.dhade24@gmail.com</p>
             </section>
-            <section>
-                <h3>Social</h3>
-                <ul class="icons alt">
-                    <li><a href="https://github.com/Moulikde" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-                    <li><a href="https://www.linkedin.com/in/moulikde/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                </ul>
-            </section>
         </section>
     </footer>
 
@@ -237,4 +279,3 @@
 
 </body>
 </html>
-
